@@ -21,7 +21,7 @@ The primary objectives of this analysis include:
 - Python-based Data Analysis and Computation: Employs Python for preliminary dataset analysis and computation, enhancing data processing capabilities.
 - Interactive Data Visualization with Power BI: Enables data visualization and exploration through Power BI, providing dynamic and insightful representations of the analyzed data.
 
-## Python
+## Data Analysis (Python)
 ```python
 
 # Merge tables and count customers with shopping records
@@ -42,6 +42,11 @@ num_duplicate_orders = len(duplicate_customers)
 print("Count of Orders with Duplicate Purchases: ", num_duplicate_orders)
 
 ```
+
+Preprocess data in Python for efficient handling of large datasets and complex calculations before visualizing in Power BI, ensuring organized, optimized data for enhanced analysis and visualization workflows.
+
+
+
 
 ## Sentiment Analysis (Hugging Face)
 ```python
@@ -155,4 +160,20 @@ This dashboard focuses on analyzing customer review scores based on order locati
 
 This page provides an overview of seller performance metrics, including individual seller review scores and category-specific review scores. By analyzing the review scores of each seller and the aggregated review scores for different product categories, businesses can assess the performance of sellers and categories in terms of customer satisfaction. This dashboard enables businesses to identify top-performing sellers, areas for improvement, and popular categories based on customer feedback, facilitating data-driven decisions to enhance seller performance and customer experience.
 
+## Summary
+- Shopping Insights:
+The peak shopping hours are between 12:00 to 18:00, indicating the most active shopping period.
+Sao Paulo has the highest number of shoppers, suggesting a significant customer base in that location.
+January records the highest number of purchases, indicating a peak in sales during that month.
 
+- Order Management:
+The order cancellation rate is relatively low, with only 625 out of 9941 orders being canceled.
+Return customers are limited, with only 2997 individuals, and most customers make single purchases, contributing to 93.62% of revenue.
+- Customer Retention:
+Customers who make repeat purchases have an average delivery time of 12.32 days, with an average of 50 days between purchases.
+There is a low rate of customer retention, indicating a need for strategies to encourage repeat purchases.
+Factors Affecting Delays:
+Delays in delivery may be influenced by specific days, geolocation, product category, and seller, suggesting areas for improvement in logistics and operations.
+- Customer Sentiment:
+Approximately 60% of comments are positive, indicating room for improvement in addressing customer concerns and enhancing overall satisfaction levels.
+This analysis provides valuable insights into customer behavior, shopping patterns, order management, customer retention, delivery efficiency, and customer sentiment. Leveraging these insights can help optimize operations, enhance customer experience, and drive business growth.
