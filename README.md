@@ -41,6 +41,14 @@ duplicate_customers = merge[merge.duplicated(subset='customer_unique_id', keep=F
 num_duplicate_orders = len(duplicate_customers)
 print("Count of Orders with Duplicate Purchases: ", num_duplicate_orders)
 
+# Distance Calculation
+import geopy.distance
+def calculate_distance(lat1, lon1, lat2, lon2):
+    coords_1 = (lat1, lon1)
+    coords_2 = (lat2, lon2)
+    distance = geopy.distance.geodesic(coords_1, coords_2).kilometers
+    return distance
+
 ```
 
 Preprocess data in Python for efficient handling of large datasets and complex calculations before visualizing in Power BI, ensuring organized, optimized data for enhanced analysis and visualization workflows.
